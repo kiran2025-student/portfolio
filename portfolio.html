@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Javvadi Usha Kiran – Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap">
+<style>
+:root{--bg:#f4f6f8;--ink:#13202c;--mute:#5a6876;--line:#d5dce3;--acc:#2547e8;--accbg:#e6ebfd;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10171e;--ink:#e8edf2;--mute:#97a4b1;--line:#27323d;--acc:#7f9bff;--accbg:#1b2540;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10171e;--ink:#e8edf2;--mute:#97a4b1;--line:#27323d;--acc:#7f9bff;--accbg:#1b2540;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--acc);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+nav{display:flex;gap:20px;flex-wrap:wrap;padding:22px 0;font-size:15px}
+nav a{color:var(--mute);text-decoration:none}nav a:hover{color:var(--ink)}
+.hero{padding:56px 0 72px;display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center}
+.kicker{color:var(--mute);margin:0 0 10px;font-size:18px}
+h1{font-size:clamp(2.6rem,8vw,4.8rem);line-height:1;letter-spacing:-.03em;font-weight:800;margin:0 0 22px}
+.lead{max-width:34em;margin:0 0 26px;font-size:19px}
+.links{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 18px;border:1px solid var(--ink);border-radius:6px;color:var(--ink);text-decoration:none;font-weight:500;font-size:15px;background:transparent;cursor:pointer;font-family:inherit}
+.btn.p{background:var(--ink);color:var(--bg)}
+.btn:hover{border-color:var(--acc)}
+.mono{width:150px;height:150px;border-radius:50%;background:var(--accbg);color:var(--acc);display:grid;place-items:center;font-size:48px;font-weight:800;letter-spacing:-.04em;position:relative}
+.trace{width:100%;height:auto;display:block;margin-top:8px;color:var(--acc)}
+.trace path{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 2.4s ease-out .2s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.trace path{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:1.9rem;letter-spacing:-.02em;margin:0 0 24px;line-height:1.15}
+.row{display:grid;grid-template-columns:200px 1fr;gap:8px 32px;padding:22px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0;padding-top:0}
+.row h3{margin:0;font-size:1.1rem;line-height:1.3}
+.row .tag{color:var(--mute);font-size:14px;margin-top:4px}
+.row p{margin:0 0 8px}
+.row a{font-weight:500}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px}
+.skills h3{font-size:1rem;margin:0 0 8px}
+.skills ul,.plain{margin:0;padding-left:18px;color:var(--mute)}
+.skills li,.plain li{margin:3px 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.chips li{background:var(--accbg);color:var(--acc);padding:4px 12px;border-radius:99px;font-size:14px;font-weight:500}
+form{display:grid;gap:14px;max-width:520px}
+label{display:grid;gap:4px;font-size:15px;font-weight:500}
+input,textarea{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--ink)}
+footer{padding:36px 0 48px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+@media(max-width:680px){.hero{grid-template-columns:1fr}.mono{order:-1;width:110px;height:110px;font-size:36px}.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#drones">Drones</a><a href="#positions">Positions held</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<div>
+<p class="kicker">Student passionate about learning hardware</p>
+<h1>Javvadi Usha Kiran</h1>
+<p class="lead">I study Electronics and Communication at Marwadi University. I build robots, drones and sensor circuits, and I write the code that runs them.</p>
+<div class="links">
+<a class="btn p" href="#projects">See my projects</a>
+<a class="btn" href="https://github.com/kiran2025-student">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/usha-kiran-javvadi-97a87131a/">LinkedIn</a>
+</div>
+</div>
+<div class="mono" role="img" aria-label="Initials JUK">UK</div>
+</header>
+<svg class="trace" viewBox="0 0 860 40" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 20H180l20-14h120l20 28h140l20-14h120l20-14h100"/></svg>
+
+<section id="about">
+<h2>About</h2>
+<p>I'm an Electronics and Communication student at Marwadi University. I like work where code meets a physical device: a motor that has to turn, a sensor that has to report, a drone that has to fly.</p>
+<p>I'm the Vice President of the Aero Modelling Club, where I coordinate members working on drones and fixed-wing planes. I'm also an IEEE student member in the Robotics and Automation Society (RAS).</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="row"><div><h3>Underwater robot (ROV)</h3><div class="tag">Funded by the university and department</div></div>
+<div><p>Designed a remotely operated vehicle with room for future research use. Built the electronics around a Raspberry Pi and used basic sensors to prototype different applications.</p><a href="https://github.com/kiran2025-student/Rov_project_details">GitHub repository</a></div></div>
+
+<div class="row"><div><h3>TurtleBot 3 web controller</h3><div class="tag">Robotics COE, Marwadi University</div></div>
+<div><p>Built a web page that controls the TurtleBot.</p></div></div>
+
+<div class="row"><div><h3>Smart IoT car</h3><div class="tag">Self project</div></div>
+<div><p>Assembled a ready-made chassis and worked with a motor driver and wheels to study friction between the tyres and the surface. An ESP32 serves a web page that controls the motors from a phone.</p></div></div>
+
+<div class="row"><div><h3>Sensor mount</h3><div class="tag">3D design in Fusion 360</div></div>
+<div><p>Designed a 3D-printable mount for the SEN55 and MiCS-4514 sensors.</p></div></div>
+
+<div class="row"><div><h3>Automatic cell counting</h3><div class="tag">Python, OpenCV</div></div>
+<div><p>Wrote a tool that detects and counts cells in microscope images, using mathematical techniques to improve counting accuracy.</p><a href="https://github.com/dhanvir07/cell-countin_python_2ndSEM">GitHub repository</a></div></div>
+
+<div class="row"><div><h3>Instrumentation amplifier</h3><div class="tag">Analog circuit, LTspice</div></div>
+<div><p>Designed and simulated an instrumentation amplifier, verified its operation and presented it as coursework.</p><a href="https://github.com/kiran2025-student/Instrumentation-Amplifier-Design-and-Simulation-using-LTspice/blob/main/README.md">GitHub repository</a></div></div>
+
+<div class="row"><div><h3>Arithmetic processor</h3><div class="tag">Digital circuits</div></div>
+<div><p>Built core arithmetic operations, including a 4-bit ALU, at IC level using logic gates on physical chips. No design software was used.</p><a href="https://github.com/kiran2025-student/Mini_arthamatic_processor_sem2/tree/main">GitHub repository</a></div></div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Microcontrollers and boards</h3><ul><li>Arduino UNO (motor control, sensors)</li><li>ESP32</li><li>Raspberry Pi</li><li>ATmega32 and PIC</li></ul></div>
+<div><h3>Languages</h3><ul><li>C</li><li>Assembly</li><li>Python (GPIO, OpenCV)</li></ul></div>
+<div><h3>Protocols and sensors</h3><ul><li>I²C with the BNO055</li><li>UART with Arduino and ESP32</li><li>Ultrasonic sensors</li><li>SEN55, MiCS-4514</li></ul></div>
+<div><h3>Tools</h3><ul><li>Git and GitHub</li><li>VS Code, PlatformIO</li><li>Microchip Studio</li><li>Linux</li><li>Cadence, LTspice</li><li>Fusion 360</li></ul></div>
+<div><h3>Other</h3><ul><li>Basic knowledge of digital electronics</li><li>Drone assembly and electronics</li><li>Project management</li></ul></div>
+</div>
+</section>
+
+<section id="drones">
+<h2>Drone technology</h2>
+<div class="row"><div><h3>Flight controllers</h3></div><div><ul class="chips"><li>BetaFlight</li><li>Micro Air</li><li>Pixhawk</li></ul></div></div>
+<div class="row"><div><h3>Frame</h3></div><div><p>S500</p></div></div>
+<div class="row"><div><h3>Software</h3></div><div><p>Mission Planner (ArduPilot)</p></div></div>
+<div class="row"><div><h3>Flying</h3></div><div><p>Learning to fly through test flights with the club.</p></div></div>
+</section>
+
+<section id="positions">
+<h2>Positions held</h2>
+<div class="row"><div><h3>Vice President</h3><div class="tag">Aero Modelling Club, Marwadi University</div></div>
+<div><p>Work on drones and fixed-wing planes and coordinate the club's members.</p><a href="https://drive.google.com/drive/folders/13DKivJJf0Qtp8NQDp41nrgoZPxjsV27o?usp=drive_link">Club work and photos</a></div></div>
+<div class="row"><div><h3>IEEE student member</h3><div class="tag">Robotics and Automation Society (RAS)</div></div>
+<div><p>Active member of the IEEE RAS student community.</p><a href="https://drive.google.com/drive/folders/12Zq-4weNGZbx8502y4XEhAnZTw8_9kSg?usp=drive_link">IEEE certificate</a></div></div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Write to me, or find me on <a href="https://www.linkedin.com/in/usha-kiran-javvadi-97a87131a/">LinkedIn</a> and <a href="https://github.com/kiran2025-student">GitHub</a>.</p>
+<form id="cf">
+<label>Your name<input id="n" required autocomplete="name"></label>
+<label>Your email<input id="e" type="email" required autocomplete="email"></label>
+<label>Message<textarea id="m" rows="5" required></textarea></label>
+<button class="btn p" type="submit">Open in email app</button>
+</form>
+</section>
+
+<footer>© Javvadi Usha Kiran · ECE student</footer>
+</div>
+<script>
+document.getElementById("cf").addEventListener("submit",function(ev){
+ev.preventDefault();
+var n=document.getElementById("n").value,e=document.getElementById("e").value,m=document.getElementById("m").value;
+var body=m+"\n\nFrom: "+n+" ("+e+")";
+window.location.href="mailto:Javvadiushakiran8125@gmail.com?subject="+encodeURIComponent("Portfolio message from "+n)+"&body="+encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
